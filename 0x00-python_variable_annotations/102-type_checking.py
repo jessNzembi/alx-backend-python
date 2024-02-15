@@ -5,7 +5,7 @@
 from typing import Tuple, List
 
 
-def zoom_array(numbers: Tuple[int], factor: int = 2) -> List[int]:
+def zoom_array(numbers: Tuple, factor: int = 2) -> List[int]:
     """ the function """
     return [num for num in numbers for _ in range(factor)]
 
